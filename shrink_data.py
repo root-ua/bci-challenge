@@ -13,7 +13,7 @@ def shrink_files(subjects, folder):
 
             # whole file
             temp = pd.read_csv(oldFileName)
-            # feedbackss
+            # feedbacks
             fb = temp.query('FeedBackEvent == 1', engine='python')['FeedBackEvent']
 
             concatenated = None

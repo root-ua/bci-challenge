@@ -13,15 +13,15 @@ submission = pd.read_csv('SampleSubmission.csv')
 
 print "Data loaded successfully!\n"
 
-clf = svm.SVC(kernel='poly', probability=True)
+clf = svm.SVC(kernel='linear', probability=True)
 
 print "Starting to train..."
-rf = clf.fit(train, train_labels.values[:, 1])
+rf = clf.fit(train.values[:, :], train_labels.values[:, 1].ravel())
 print "Training finished!\n"
 
 print "Predicting ..."
 #preds = clf.predict(test)
-preds = clf.predict_proba(test)
+preds = clf.predict_proba(test.values[:, :])
 print "Predicted!\n"
 
 preds = preds[:, 1]
