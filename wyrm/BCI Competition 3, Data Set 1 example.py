@@ -1,3 +1,9 @@
+"""
+Example by Bastian Venthur
+taken from https://github.com/venthur/wyrm/blob/master/examples/
+BCI Competition 3, Data Set 1 (motor imagery in ECoG recordings).ipynb
+"""
+
 from __future__ import division
 
 import numpy as np
