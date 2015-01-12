@@ -22,12 +22,13 @@ print "Starting to train..."
 rfc.fit(train.values[:, :], train_labels.values[:, 1].ravel())
 print "Training finished!\n"
 
+print "Starting cross-validation..."
+scores = cross_val_score(rfc, train.values[:, :], train_labels.values[:, 1])
+print "Cross-validation accuracy: " + scores.mean()
+
 print "Predicting ..."
 preds = rfc.predict_proba(test.values[:, :])
 print "Predicted!\n"
-
-scores = cross_val_score(rfc, train.values[:, :], train_labels.values[:, 1].ravel())
-print "Accuracy: " + scores.mean()
 
 preds = preds[:, 1]
 submission['Prediction'] = preds
