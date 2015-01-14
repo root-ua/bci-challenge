@@ -6,7 +6,7 @@ from pprint import pprint
 import sklearn.ensemble as ens
 from sklearn.cross_validation import cross_val_score
 
-print "     RANDOM FOREST METHOD!\n"
+print "     GRADIENT BOOSTING METHOD!\n"
 print "Starting to load data..."
 
 test = pd.DataFrame.from_csv('test_cz.csv')
@@ -18,7 +18,7 @@ print "Data loaded successfully!\n"
 
 sp = np.array(train_labels.values[:, 1].ravel(), dtype=int)
 
-rfc = ens.RandomForestClassifier(n_estimators=500, max_features=0.25, min_samples_split=1, random_state=0)
+rfc = ens.GradientBoostingClassifier(n_estimators=500,learning_rate=0.05, max_features=0.25)
 
 print "Starting to train..."
 rfc.fit(train.values[:, :], sp)
@@ -34,4 +34,4 @@ print "Predicted!\n"
 
 preds = preds[:, 1]
 submission['Prediction'] = preds
-submission.to_csv('rfc_benchmark.csv', index=False)
+submission.to_csv('gbmv2_benchmark.csv', index=False)
