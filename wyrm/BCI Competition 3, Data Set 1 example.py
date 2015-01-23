@@ -30,6 +30,7 @@ true_labels = np.loadtxt(TRUE_LABELS).astype('int')
 # map labels -1 -> 0
 true_labels[true_labels == -1] = 0
 
+
 def plot_csp_pattern(a):
     # get symmetric min/max values for the color bar from first and last column of the pattern
     maxv = np.max(np.abs(a[:, [0, -1]]))
@@ -62,6 +63,7 @@ def preprocess(data, filt=None):
     b, a = proc.signal.butter(5, [13 / fs_n], btype='low')
     dat = proc.filtfilt(dat, b, a)
 
+
     b, a = proc.signal.butter(5, [9 / fs_n], btype='high')
     dat = proc.filtfilt(dat, b, a)
     
@@ -83,6 +85,7 @@ fv_test, _ = preprocess(dat_test, filt)
 cfy = proc.lda_train(fv_train)
 result = proc.lda_apply(fv_test, cfy)
 result = (np.sign(result) + 1) / 2
-print 'LDA Accuracy %.2f%%' % (len(set(result).intersection(true_labels)) / len(result))
+
+print 'LDA Accuracy %.2f%%' % ((result == true_labels).sum() / len(result))
 
 plt.show()
