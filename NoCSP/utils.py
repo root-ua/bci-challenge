@@ -5,8 +5,11 @@ n_epo_per_sub = 340
 n_train_subjects = 16
 
 
-def log(message):
-    print "at " + datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " " + message
+def log(message, cool_color=False):
+    if cool_color:
+        print bcolors.OKGREEN + "at " + datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " " + message + bcolors.ENDC
+    else:
+        print "at " + datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " " + message
 
 
 def epochs_indices(subj_indices):

@@ -6,15 +6,15 @@ from sklearn import svm
 
 folder_name = '../../shrinked_data/'
 
-window_start = 160
-window_size = 20
+window_start = 20
+window_size = 135
 
 all_features = np.arange(0, 57)
 
 data, train_labels = load_data(folder_name, 'train')
 data = np.array(get_windows(data, window_start, window_size))
 
-features = []
+features = [47]
 best_score = 0
 
 while True:
@@ -27,7 +27,7 @@ while True:
 
         new_features = features + [feature]
 
-        accuracy = np.zeros(5)
+        accuracy = np.zeros(3)
 
         log('started testing with features ' + str(new_features))
 
@@ -40,14 +40,10 @@ while True:
             test_data = data[epochs_indices(rs[1])]
             test_y = train_labels[epochs_indices(rs[1])]
 
-            #add for SVM
-            #train_y = (train_y * 2) - 1
-
             train_x = extract_features(train_data, new_features)
             test_x = extract_features(test_data, new_features)
 
             clf = ens.RandomForestClassifier(n_estimators=500, max_features=0.25, min_samples_split=1, random_state=0)
-            #clf = svm.SVC(probability=True)
 
             clf.fit(train_x, train_y)
 
@@ -72,7 +68,7 @@ while True:
     log('old score: %.8f%%, old features set: %s. new score: %.8f%%, new features set %s'
         % (best_score, str(features), best_feature_score, str(best_feature_set)))
 
-    if best_feature_score - best_score > 0.02:
+    if best_feature_score - best_score > 0.002:
         features = best_feature_set
         best_score = best_feature_score
         log("let's repeat once again")

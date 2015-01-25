@@ -1,0 +1,43 @@
+window_start = 80
+window_size = 100
+acur when tested data split by epochs - 0.53596 https://plot.ly/~serhiy.shekhovtsov/352
+acur when tested data split by subjects (2) - 0.52706 https://plot.ly/~serhiy.shekhovtsov/358
+acur randomized subjects 0.48371841
+score - 0.45609
+
+
+window_start = 160
+window_size = 60
+acur randomized epochs - 0.54588 lost :(
+acur randomized subjects 0.49607521
+score - 0.49603
+
+
+window_start = 175
+window_size = 75
+acur randomized epochs - 0.54124 https://plot.ly/~serhiy.shekhovtsov/432
+acur randomized subjects - 0.50704 https://plot.ly/~serhiy.shekhovtsov/431
+score - 0.49152
+
+
+window_start = 145
+window_size = 45
+acur randomized epochs - 0.54549 https://plot.ly/~serhiy.shekhovtsov/432
+acur randomized subjects - 0.49496 https://plot.ly/~serhiy.shekhovtsov/431
+score - 0.48324
+
+
+window_start = 160
+window_size = 20
+acur randomized epochs - 
+acur randomized subjects - 0.5042791 https://plot.ly/~serhiy.shekhovtsov/471
+score - 0.49519
+
+
+window_start = 160
+window_size = 20
+features = [47, 4]
+0.53202
+0.54996657
+
+

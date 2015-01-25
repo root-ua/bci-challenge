@@ -8,12 +8,12 @@ from NoCSP.utils import extract_features
 submission = pd.read_csv('../../SampleSubmission.csv')
 folder_name = '../../shrinked_data/'
 
-window_start = 160
-window_size = 20
+window_start = 20
+window_size = 135
+features = [47, 5]
 
-# TODO: put features here
-features = [24]
-SVM = True
+# SVM or RandomForest or GBM
+alg = 'SVM'
 
 test_data, _ = load_data(folder_name, 'test')
 test_data = np.array(get_windows(test_data, window_start, window_size))
@@ -21,7 +21,7 @@ test_data = np.array(get_windows(test_data, window_start, window_size))
 train_data, train_labels = load_data(folder_name, 'train')
 train_data = np.array(get_windows(train_data, window_start, window_size))
 
-if SVM:
+if alg == 'SVM':
     merged_data = np.vstack((train_data, test_data))
     train_lgth = len(train_data)
 
@@ -34,10 +34,12 @@ if SVM:
 train_x = extract_features(train_data, features)
 test_x = extract_features(test_data, features)
 
-if SVM:
+if alg == 'SVM':
     clf = svm.SVC(probability=True)
+elif alg == 'GBM':
+    clf = ens.GradientBoostingClassifier(n_estimators=500, learning_rate=0.05, max_features=0.25)
 else:
-    clf = ens.RandomForestClassifier(n_estimators=500, max_features=0.25, min_samples_split=1, random_state=0)
+    clf = ens.RandomForestClassifier(n_jobs=-1, n_estimators=10, min_samples_leaf=10, random_state=42)
 
 clf.fit(train_x, train_labels)
 result = clf.predict_proba(test_x)
