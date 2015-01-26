@@ -47,16 +47,18 @@ def load_data(folder_name, data_cat, subjects=None):
             feedbacks = temp.query('FeedBackEvent == 1', engine='python')['FeedBackEvent']
             for k in feedbacks.index:
 
-                subject_column = np.arrange(600)
+                subject_column = np.arange(600)
                 subject_column.fill(i)
-                session_column = np.arrange(600)
+                session_column = np.arange(600)
                 session_column.fill(j)
-                position_column = np.arrange(600)
+                position_column = np.arange(600)
                 position_column.fill(k)
-                feedback_column = np.arrange(600)
+                feedback_column = np.arange(600)
                 feedback_column.fill(feedback_num)
                 extra = np.column_stack((subject_column, session_column, position_column, feedback_column))
                 d = new_data[k - init_start:k + init_size]
+                pprint(extra.shape)
+                pprint(d.shape)
                 final = np.column_stack((extra, d))
 
                 X.append(final)
