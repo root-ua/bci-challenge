@@ -7,11 +7,11 @@ from sklearn import svm
 
 folder_name = '../../shrinked_data/'
 
-window_start = 20
-window_size = 135
-features = [47]
+window_start = 0
+window_size = 260
+features = [32]
 # SVM or RMF or GBM
-alg = 'RMF'
+alg = 'SVM'
 
 data, train_labels = load_data(folder_name, 'train')
 data = np.array(get_windows(data, window_start, window_size))
@@ -57,5 +57,6 @@ for state in range(0, len(accuracy)):
 
 acc = accuracy.min()
 
-log('accuracy with %s algorithm is %.8f%%' % (alg, acc))
+log('%s algorithm: features %s, window start %i, window size %i accuracy is %.8f%%'
+    % (alg, str(features), window_start, window_size, acc))
 print 'done'

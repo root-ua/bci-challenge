@@ -17,7 +17,9 @@ def epochs_indices(subj_indices):
 
 
 def extract_features(data, features):
-    return [np.hstack([row[feature] for row in epo for feature in features]) for epo in data]
+    return [np.hstack(([row[feature] for row in epo for feature in features],
+                       epo[0][57], epo[0][58], epo[0][59], epo[0][60])) for epo in data]
+
 
 
 class bcolors:

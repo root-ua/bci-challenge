@@ -46,25 +46,10 @@ def load_data(folder_name, data_cat, subjects=None):
             # take windows
             feedbacks = temp.query('FeedBackEvent == 1', engine='python')['FeedBackEvent']
             for k in feedbacks.index:
+                window = np.column_stack((new_data[k - init_start:k + init_size], arange_column(i),
+                                          arange_column(j), arange_column(k), arange_column(feedback_num)))
 
-                subject_column = np.arange(600)
-                subject_column.fill(i)
-                session_column = np.arange(600)
-                session_column.fill(j)
-                position_column = np.arange(600)
-                position_column.fill(k)
-                feedback_column = np.arange(600)
-                feedback_column.fill(feedback_num)
-
-                extra = np.column_stack((subject_column, session_column, position_column, feedback_column))
-                d = new_data[k - init_start:k + init_size]
-
-                pprint(extra.shape)
-                pprint(d.shape)
-
-                final = np.column_stack((extra, d))
-
-                X.append(final)
+                X.append(window)
                 feedback_num += 1
 
     savemat(mat_file_name, {'X': X, 'Y': Y})
@@ -79,3 +64,9 @@ def get_windows(data, window_start, window_size):
         new_data.append(d[init_start + window_start:init_start + window_start + window_size - 1])
 
     return new_data
+
+
+def arange_column(val):
+    column = np.arange(init_start + init_size)
+    column.fill(val)
+    return column
