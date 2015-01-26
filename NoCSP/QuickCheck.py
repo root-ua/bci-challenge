@@ -1,4 +1,3 @@
-from scipy import signal
 from sklearn import cross_validation, metrics, preprocessing
 from NoCSP.load_data import load_data, get_windows
 import sklearn.ensemble as ens
@@ -9,9 +8,9 @@ folder_name = '../../shrinked_data/'
 
 window_start = 0
 window_size = 260
-features = [32]
+features = [28]
 # SVM or RMF or GBM
-alg = 'SVM'
+alg = 'GBM'
 
 data, train_labels = load_data(folder_name, 'train')
 data = np.array(get_windows(data, window_start, window_size))
