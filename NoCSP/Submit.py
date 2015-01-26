@@ -8,9 +8,9 @@ from NoCSP.utils import extract_features
 submission = pd.read_csv('../../SampleSubmission.csv')
 folder_name = '../../shrinked_data/'
 
-window_start = 0
-window_size = 260
-features = [32]
+window_start = 20
+window_size = 110
+features = [47]
 # SVM or RMF or GBM
 alg = 'GBM'
 
@@ -36,9 +36,11 @@ test_x = extract_features(test_data, features)
 if alg == 'SVM':
     clf = svm.SVC(probability=True)
 elif alg == 'GBM':
-    clf = ens.GradientBoostingClassifier(n_estimators=500, learning_rate=0.05, max_features=0.25)
+    clf = ens.GradientBoostingClassifier(n_estimators=500, learning_rate=0.05, max_features=0.25,
+                                         random_state=0)
 else:
-    clf = ens.RandomForestClassifier(n_jobs=-1, n_estimators=10, min_samples_leaf=10, random_state=42)
+    clf = ens.RandomForestClassifier(n_estimators=500, max_features=0.25, min_samples_split=1,
+                                     random_state=0)
 
 clf.fit(train_x, train_labels)
 result = clf.predict_proba(test_x)
