@@ -2,6 +2,8 @@ from __future__ import division
 import os
 import pandas as pd
 from scipy.io import savemat, loadmat
+from pprint import pprint
+import numpy as np
 
 init_start = 100
 init_size = 500
@@ -15,13 +17,13 @@ def load_data(folder_name, data_cat, subjects=None):
         try:
             # loading data from .mat file
             data = loadmat(mat_file_name)
-
             return data['X'], data['Y'][0]
+
         except BaseException as e:
             print 'error occurred when trying to load data from .mat: ' + e.message
 
     # loading data from .csv files
-    train_subs = ['02','06','07','11','12','13','14','16','17','18','20','21','22','23','24','26']
+    train_subs = ['02', '06','07','11','12','13','14','16','17','18','20','21','22','23','24','26']
     test_subs = ['01','03','04','05','08','09','10','15','19','25']
 
     subs = subjects
@@ -40,10 +42,25 @@ def load_data(folder_name, data_cat, subjects=None):
             # get entire data matrix
             new_data = temp.values[:, 2:-1]
 
+            feedback_num = 0
             # take windows
             feedbacks = temp.query('FeedBackEvent == 1', engine='python')['FeedBackEvent']
             for k in feedbacks.index:
-                X.append(new_data[k - init_start:k + init_size])
+
+                subject_column = np.arrange(600)
+                subject_column.fill(i)
+                session_column = np.arrange(600)
+                session_column.fill(j)
+                position_column = np.arrange(600)
+                position_column.fill(k)
+                feedback_column = np.arrange(600)
+                feedback_column.fill(feedback_num)
+                extra = np.column_stack((subject_column, session_column, position_column, feedback_column))
+                d = new_data[k - init_start:k + init_size]
+                final = np.column_stack((extra, d))
+
+                X.append(final)
+                feedback_num += 1
 
     savemat(mat_file_name, {'X': X, 'Y': Y})
 
