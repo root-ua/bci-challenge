@@ -1,14 +1,11 @@
-from sklearn import cross_validation, metrics, preprocessing
-from NoCSP.load_data import load_data, get_windows
-import sklearn.ensemble as ens
 from NoCSP.utils import *
-from sklearn import svm
+
 
 folder_name = '../../shrinked_data/'
 
-window_start = 20
-window_size = 110
-features = [55, 15]
+window_start = 0
+window_size = 260
+features = [55, 15, 50, 24]
 # SVM or RMF or GBM
 alg = 'SVM'
 
@@ -20,9 +17,9 @@ if alg == 'SVM':
 log(alg + ' quick test started with features %s, window start %i and window size %i'
     % (str(features), window_start, window_size))
 
-acc = train_test_and_validate(alg, data, train_labels, features, False)
+acc, accs = train_test_and_validate(alg, data, train_labels, features, False)
 
-log('%s algorithm: features %s, window start %i, window size %i accuracy is %.8f%%'
-    % (alg, str(features), window_start, window_size, acc))
+log('%s algorithm: features %s, window start %i, window size %i %s best accuracy is %.8f%%'
+    % (alg, str(features), window_start, window_size, str(accs), acc))
 
 print 'done'

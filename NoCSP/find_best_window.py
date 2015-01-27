@@ -7,7 +7,7 @@ import plotly.graph_objs as go
 folder_name = '../../shrinked_data/'
 
 
-def find_best_window(alg, starts, sizes, features, base_accuracy=0.58):
+def find_best_window(alg, starts, sizes, features, base_accuracy=0.58, file_name_appdx='', mean=False):
     log('find_best_window started with algorithm %s and features %s' % (alg, str(features)))
 
     Accuracy = np.zeros((len(sizes), len(starts)))
@@ -24,7 +24,9 @@ def find_best_window(alg, starts, sizes, features, base_accuracy=0.58):
             if alg == 'SVM':
                 w_data = preprocessing.scale(w_data)
 
-            acc = train_test_and_validate(alg, w_data, train_labels, features)
+            _, accs = train_test_and_validate(alg, w_data, train_labels, features)
+
+            acc = accs.mean() if mean else accs.min()
 
             acc = base_accuracy if acc < base_accuracy else acc
             Accuracy[j][i] = acc
@@ -40,7 +42,7 @@ def find_best_window(alg, starts, sizes, features, base_accuracy=0.58):
 
             try:
                 plot_data = go.Data([go.Contour(z=Accuracy, x=starts, y=sizes)])
-                py.plot(plot_data, filename='prediction-%s with features %s' % (alg, str(features)),
+                py.plot(plot_data, filename='prediction-%s with features %s %s' % (alg, str(features), file_name_appdx),
                                    fileopt='overwrite', auto_open=False)
             except BaseException as e:
                 print 'error occurred when trying to plot: ' + e.message

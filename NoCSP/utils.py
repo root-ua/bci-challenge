@@ -66,7 +66,7 @@ def train_test_and_validate(alg, data, train_labels, features, quiet=True):
 
     acc = accuracy.min()
 
-    return acc
+    return acc, accuracy
 
 
 class bcolors:
