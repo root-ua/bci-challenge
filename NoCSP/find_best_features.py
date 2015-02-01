@@ -1,4 +1,3 @@
-from NoCSP.load_data import apply_ICA_wgts
 from NoCSP.utils import *
 
 

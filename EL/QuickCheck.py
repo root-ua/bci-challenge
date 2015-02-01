@@ -16,8 +16,6 @@ data, train_labels = load_data(folder_name, 'train')
 
 log('quick check started')
 
-W = np.loadtxt('data/weights.txt')
-data = apply_ICA_wgts(data, W)
 
 data = np.array(get_windows(data, window_start, window_size))
 if alg == 'SVM':

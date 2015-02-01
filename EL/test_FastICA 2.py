@@ -17,21 +17,21 @@ alg = 'SVM'
 
 data, train_labels = load_data(folder_name, 'train')
 
-# 2d matrix with all training data we have
-data_matrix = np.vstack(data[:, :, :])
-
 # select 1000 random epochs from data
 random.seed(1)
-train_eeg_matrix = data[random.sample(range(data.shape[0], 1000)), :, :56]
+train_eeg_matrix = np.vstack(data[random.sample(range(data.shape[0]), 2000), :, :56])
 
 log('test FastICA with random epochs started')
 
 # Compute ICA
-ica = FastICA(n_components=train_eeg_matrix.shape[1])
+ica = FastICA(n_components=train_eeg_matrix.shape[1], random_state=9)
 ica.fit(train_eeg_matrix)                                  # train on some channels data
 
 log('done')
-exit(0, 0)
+exit(0)
+
+# 2d matrix with all training data we have
+data_matrix = np.vstack(data[:, :, :])
 
 s_data = ica.transform(data_matrix[:, :56])                # transform channels to sources data
 s_data = np.concatenate((s_data, data_matrix[:, 56:]), 1)  # append additional features
