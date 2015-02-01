@@ -24,7 +24,7 @@ def find_best_window(alg, starts, sizes, features, base_accuracy=0.58, file_name
             if alg == 'SVM':
                 w_data = preprocessing.scale(w_data)
 
-            _, accs = train_test_and_validate(alg, w_data, train_labels, features)
+            accs = train_test_and_validate(alg, w_data, train_labels, features)
 
             acc = accs.mean() if mean else accs.min()
 

@@ -1,0 +1,8 @@
+at 2015-01-29 17:46:59 SVM quick test started with features [39, 0, 40], window start 40 and window size 150
+at 2015-01-29 17:48:28 round 0. accuracy: 0.69488397%
+at 2015-01-29 17:50:01 round 1. accuracy: 0.68562319%
+at 2015-01-29 17:51:34 round 2. accuracy: 0.80262691%
+at 2015-01-29 17:53:05 round 3. accuracy: 0.71097395%
+at 2015-01-29 17:54:38 round 4. accuracy: 0.80286357%
+at 2015-01-29 17:54:38 SVM algorithm: features [39, 0, 40], window start 40, window size 150 mean accuracy: 0.73939432%, min accuracy: 0.68562319% [ 0.69488397  0.68562319  0.80262691  0.71097395  0.80286357]
+Your submission scored 0.68518

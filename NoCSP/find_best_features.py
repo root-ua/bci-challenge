@@ -1,16 +1,21 @@
+from NoCSP.load_data import apply_ICA_wgts
 from NoCSP.utils import *
 
 
 folder_name = '../../shrinked_data/'
 
 
-def find_best_features(alg, window_start, window_size):
+def find_best_features(alg, window_start, window_size, mean=False, existing_data=None, existing_labels=None):
     log('find_best_features started with algorithm %s, window start %i and window size %i'
         % (alg, window_start, window_size))
 
     all_features = np.arange(0, 57)
 
-    data, train_labels = load_data(folder_name, 'train')
+    if existing_data is None or existing_labels is None:
+        data, train_labels = load_data(folder_name, 'train')
+    else:
+        data, train_labels = existing_data, existing_labels
+
     data = np.array(get_windows(data, window_start, window_size))
     if alg == 'SVM':
         data = preprocessing.scale(data)
@@ -30,7 +35,8 @@ def find_best_features(alg, window_start, window_size):
 
             log('started testing with features ' + str(new_features))
 
-            acc = train_test_and_validate(alg, data, train_labels, new_features)
+            accs = train_test_and_validate(alg, data, train_labels, new_features)
+            acc = accs.mean() if mean else accs.min()
 
             log('old score: %.8f%%, old features set: %s. new score: %.8f%%, new features: set %s '
                 % (best_feature_score, str(best_feature_set), acc, str(new_features)))

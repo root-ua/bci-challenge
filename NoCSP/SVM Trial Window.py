@@ -5,11 +5,11 @@ import numpy as np
 
 folder_name = '../../shrinked_data/'
 
-starts = np.arange(-10, 75, 10) # 8  items
-sizes = np.arange(240, 275, 10) # 4  items
-features = [55, 15]
+starts = np.arange(30, 85, 10) # 4  items
+sizes = np.arange(100, 235, 10) # 13  items
+features = [39, 0, 40]
 alg = 'SVM'
 
-find_best_window(alg, starts, sizes, features, 0.5, 'top')
+find_best_window(alg, starts, sizes, features, 0.6, '2')
 
 log('done')

@@ -28,10 +28,10 @@ def extract_features(data, features):
 
 
 def train_test_and_validate(alg, data, train_labels, features, quiet=True):
-    accuracy = np.zeros(3)
+    accuracy = np.zeros(5)
 
     for state in range(0, len(accuracy)):
-        rs = cross_validation.ShuffleSplit(n_train_subjects, n_iter=10, test_size=.1, random_state=state)
+        rs = cross_validation.ShuffleSplit(n_train_subjects, n_iter=10, test_size=.05, random_state=state)
         rs = [[train_index, test_index] for train_index, test_index in rs][0]
 
         train_data = data[epochs_indices(rs[0])]
@@ -64,9 +64,7 @@ def train_test_and_validate(alg, data, train_labels, features, quiet=True):
         if not quiet:
             log('round %i. accuracy: %.8f%%' % (state, acc))
 
-    acc = accuracy.min()
-
-    return acc, accuracy
+    return accuracy
 
 
 class bcolors:

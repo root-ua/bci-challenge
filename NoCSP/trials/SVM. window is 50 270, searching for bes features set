@@ -1,0 +1,685 @@
+C:\Users\user\AppData\Local\Enthought\Canopy\User\Scripts\python.exe "D:/Projects/Education/LITS/Kaggle BCI/GitHub/NoCSP/SVM Trial Features.py"
+at 2015-01-28 16:31:30 find_best_features started with algorithm SVM, window start 50 and window size 270
+at 2015-01-28 16:32:27 started testing with features [0]
+at 2015-01-28 16:37:23 old score: 0.00000000%, old features set: []. new score: 0.51100334%, new features: set [0] 
+at 2015-01-28 16:37:23 new feature is better
+at 2015-01-28 16:37:23 started testing with features [1]
+at 2015-01-28 16:42:19 old score: 0.51100334%, old features set: [0]. new score: 0.47099453%, new features: set [1] 
+at 2015-01-28 16:42:19 new feature is not better
+at 2015-01-28 16:42:19 started testing with features [2]
+at 2015-01-28 16:47:00 old score: 0.51100334%, old features set: [0]. new score: 0.48761353%, new features: set [2] 
+at 2015-01-28 16:47:00 new feature is not better
+at 2015-01-28 16:47:00 started testing with features [3]
+at 2015-01-28 16:51:29 old score: 0.51100334%, old features set: [0]. new score: 0.53495720%, new features: set [3] 
+at 2015-01-28 16:51:29 new feature is better
+at 2015-01-28 16:51:29 started testing with features [4]
+at 2015-01-28 16:55:57 old score: 0.53495720%, old features set: [3]. new score: 0.52389875%, new features: set [4] 
+at 2015-01-28 16:55:57 new feature is not better
+at 2015-01-28 16:55:57 started testing with features [5]
+at 2015-01-28 17:00:20 old score: 0.53495720%, old features set: [3]. new score: 0.52955656%, new features: set [5] 
+at 2015-01-28 17:00:20 new feature is not better
+at 2015-01-28 17:00:20 started testing with features [6]
+at 2015-01-28 17:04:45 old score: 0.53495720%, old features set: [3]. new score: 0.55418357%, new features: set [6] 
+at 2015-01-28 17:04:45 new feature is better
+at 2015-01-28 17:04:45 started testing with features [7]
+at 2015-01-28 17:09:08 old score: 0.55418357%, old features set: [6]. new score: 0.50608031%, new features: set [7] 
+at 2015-01-28 17:09:08 new feature is not better
+at 2015-01-28 17:09:08 started testing with features [8]
+at 2015-01-28 17:13:42 old score: 0.55418357%, old features set: [6]. new score: 0.51779710%, new features: set [8] 
+at 2015-01-28 17:13:42 new feature is not better
+at 2015-01-28 17:13:42 started testing with features [9]
+at 2015-01-28 17:18:18 old score: 0.55418357%, old features set: [6]. new score: 0.54436239%, new features: set [9] 
+at 2015-01-28 17:18:18 new feature is not better
+at 2015-01-28 17:18:18 started testing with features [10]
+at 2015-01-28 17:22:42 old score: 0.55418357%, old features set: [6]. new score: 0.53576546%, new features: set [10] 
+at 2015-01-28 17:22:42 new feature is not better
+at 2015-01-28 17:22:42 started testing with features [11]
+at 2015-01-28 17:27:06 old score: 0.55418357%, old features set: [6]. new score: 0.55490650%, new features: set [11] 
+at 2015-01-28 17:27:06 new feature is better
+at 2015-01-28 17:27:06 started testing with features [12]
+at 2015-01-28 17:31:28 old score: 0.55490650%, old features set: [11]. new score: 0.54679920%, new features: set [12] 
+at 2015-01-28 17:31:28 new feature is not better
+at 2015-01-28 17:31:28 started testing with features [13]
+at 2015-01-28 17:35:52 old score: 0.55490650%, old features set: [11]. new score: 0.52694809%, new features: set [13] 
+at 2015-01-28 17:35:52 new feature is not better
+at 2015-01-28 17:35:52 started testing with features [14]
+at 2015-01-28 17:40:13 old score: 0.55490650%, old features set: [11]. new score: 0.50558454%, new features: set [14] 
+at 2015-01-28 17:40:13 new feature is not better
+at 2015-01-28 17:40:13 started testing with features [15]
+at 2015-01-28 17:44:31 old score: 0.55490650%, old features set: [11]. new score: 0.52390338%, new features: set [15] 
+at 2015-01-28 17:44:31 new feature is not better
+at 2015-01-28 17:44:31 started testing with features [16]
+at 2015-01-28 17:48:53 old score: 0.55490650%, old features set: [11]. new score: 0.46926779%, new features: set [16] 
+at 2015-01-28 17:48:53 new feature is not better
+at 2015-01-28 17:48:53 started testing with features [17]
+at 2015-01-28 17:53:15 old score: 0.55490650%, old features set: [11]. new score: 0.51721739%, new features: set [17] 
+at 2015-01-28 17:53:15 new feature is not better
+at 2015-01-28 17:53:15 started testing with features [18]
+at 2015-01-28 17:57:37 old score: 0.55490650%, old features set: [11]. new score: 0.54149675%, new features: set [18] 
+at 2015-01-28 17:57:37 new feature is not better
+at 2015-01-28 17:57:37 started testing with features [19]
+at 2015-01-28 18:01:56 old score: 0.55490650%, old features set: [11]. new score: 0.54950586%, new features: set [19] 
+at 2015-01-28 18:01:56 new feature is not better
+at 2015-01-28 18:01:56 started testing with features [20]
+at 2015-01-28 18:06:23 old score: 0.55490650%, old features set: [11]. new score: 0.57843478%, new features: set [20] 
+at 2015-01-28 18:06:23 new feature is better
+at 2015-01-28 18:06:23 started testing with features [21]
+at 2015-01-28 18:10:47 old score: 0.57843478%, old features set: [20]. new score: 0.51652174%, new features: set [21] 
+at 2015-01-28 18:10:47 new feature is not better
+at 2015-01-28 18:10:47 started testing with features [22]
+at 2015-01-28 18:15:08 old score: 0.57843478%, old features set: [20]. new score: 0.51434660%, new features: set [22] 
+at 2015-01-28 18:15:08 new feature is not better
+at 2015-01-28 18:15:08 started testing with features [23]
+at 2015-01-28 18:19:32 old score: 0.57843478%, old features set: [20]. new score: 0.52583575%, new features: set [23] 
+at 2015-01-28 18:19:32 new feature is not better
+at 2015-01-28 18:19:32 started testing with features [24]
+at 2015-01-28 18:23:52 old score: 0.57843478%, old features set: [20]. new score: 0.53958632%, new features: set [24] 
+at 2015-01-28 18:23:52 new feature is not better
+at 2015-01-28 18:23:52 started testing with features [25]
+at 2015-01-28 18:28:16 old score: 0.57843478%, old features set: [20]. new score: 0.52511114%, new features: set [25] 
+at 2015-01-28 18:28:16 new feature is not better
+at 2015-01-28 18:28:16 started testing with features [26]
+at 2015-01-28 18:32:38 old score: 0.57843478%, old features set: [20]. new score: 0.57165950%, new features: set [26] 
+at 2015-01-28 18:32:38 new feature is not better
+at 2015-01-28 18:32:38 started testing with features [27]
+at 2015-01-28 18:37:00 old score: 0.57843478%, old features set: [20]. new score: 0.54241522%, new features: set [27] 
+at 2015-01-28 18:37:00 new feature is not better
+at 2015-01-28 18:37:00 started testing with features [28]
+at 2015-01-28 18:41:19 old score: 0.57843478%, old features set: [20]. new score: 0.58374665%, new features: set [28] 
+at 2015-01-28 18:41:19 new feature is better
+at 2015-01-28 18:41:19 started testing with features [29]
+at 2015-01-28 18:45:34 old score: 0.58374665%, old features set: [28]. new score: 0.58323230%, new features: set [29] 
+at 2015-01-28 18:45:34 new feature is not better
+at 2015-01-28 18:45:34 started testing with features [30]
+at 2015-01-28 18:49:54 old score: 0.58374665%, old features set: [28]. new score: 0.58415459%, new features: set [30] 
+at 2015-01-28 18:49:54 new feature is better
+at 2015-01-28 18:49:54 started testing with features [31]
+at 2015-01-28 18:54:23 old score: 0.58415459%, old features set: [30]. new score: 0.51533855%, new features: set [31] 
+at 2015-01-28 18:54:23 new feature is not better
+at 2015-01-28 18:54:23 started testing with features [32]
+at 2015-01-28 18:59:32 old score: 0.58415459%, old features set: [30]. new score: 0.55523715%, new features: set [32] 
+at 2015-01-28 18:59:32 new feature is not better
+at 2015-01-28 18:59:32 started testing with features [33]
+at 2015-01-28 19:04:45 old score: 0.58415459%, old features set: [30]. new score: 0.55308213%, new features: set [33] 
+at 2015-01-28 19:04:45 new feature is not better
+at 2015-01-28 19:04:45 started testing with features [34]
+at 2015-01-28 19:09:39 old score: 0.58415459%, old features set: [30]. new score: 0.55700062%, new features: set [34] 
+at 2015-01-28 19:09:39 new feature is not better
+at 2015-01-28 19:09:39 started testing with features [35]
+at 2015-01-28 19:14:15 old score: 0.58415459%, old features set: [30]. new score: 0.56684669%, new features: set [35] 
+at 2015-01-28 19:14:15 new feature is not better
+at 2015-01-28 19:14:15 started testing with features [36]
+at 2015-01-28 19:18:52 old score: 0.58415459%, old features set: [30]. new score: 0.57426797%, new features: set [36] 
+at 2015-01-28 19:18:52 new feature is not better
+at 2015-01-28 19:18:52 started testing with features [37]
+at 2015-01-28 19:23:25 old score: 0.58415459%, old features set: [30]. new score: 0.57889855%, new features: set [37] 
+at 2015-01-28 19:23:25 new feature is not better
+at 2015-01-28 19:23:25 started testing with features [38]
+at 2015-01-28 19:27:44 old score: 0.58415459%, old features set: [30]. new score: 0.58877990%, new features: set [38] 
+at 2015-01-28 19:27:44 new feature is better
+at 2015-01-28 19:27:44 started testing with features [39]
+at 2015-01-28 19:32:42 old score: 0.58877990%, old features set: [38]. new score: 0.59182924%, new features: set [39] 
+at 2015-01-28 19:32:42 new feature is better
+at 2015-01-28 19:32:42 started testing with features [40]
+at 2015-01-28 19:37:04 old score: 0.59182924%, old features set: [39]. new score: 0.58257100%, new features: set [40] 
+at 2015-01-28 19:37:04 new feature is not better
+at 2015-01-28 19:37:04 started testing with features [41]
+at 2015-01-28 19:41:20 old score: 0.59182924%, old features set: [39]. new score: 0.55898453%, new features: set [41] 
+at 2015-01-28 19:41:20 new feature is not better
+at 2015-01-28 19:41:20 started testing with features [42]
+at 2015-01-28 19:45:49 old score: 0.59182924%, old features set: [39]. new score: 0.55720269%, new features: set [42] 
+at 2015-01-28 19:45:49 new feature is not better
+at 2015-01-28 19:45:49 started testing with features [43]
+at 2015-01-28 19:50:16 old score: 0.59182924%, old features set: [39]. new score: 0.27584388%, new features: set [43] 
+at 2015-01-28 19:50:16 new feature is not better
+at 2015-01-28 19:50:16 started testing with features [44]
+at 2015-01-28 19:54:53 old score: 0.59182924%, old features set: [39]. new score: 0.57386385%, new features: set [44] 
+at 2015-01-28 19:54:53 new feature is not better
+at 2015-01-28 19:54:53 started testing with features [45]
+at 2015-01-28 19:59:42 old score: 0.59182924%, old features set: [39]. new score: 0.58183575%, new features: set [45] 
+at 2015-01-28 19:59:42 new feature is not better
+at 2015-01-28 19:59:42 started testing with features [46]
+at 2015-01-28 20:04:34 old score: 0.59182924%, old features set: [39]. new score: 0.57441493%, new features: set [46] 
+at 2015-01-28 20:04:34 new feature is not better
+at 2015-01-28 20:04:34 started testing with features [47]
+at 2015-01-28 20:09:46 old score: 0.59182924%, old features set: [39]. new score: 0.58457971%, new features: set [47] 
+at 2015-01-28 20:09:46 new feature is not better
+at 2015-01-28 20:09:46 started testing with features [48]
+at 2015-01-28 20:14:12 old score: 0.59182924%, old features set: [39]. new score: 0.56100483%, new features: set [48] 
+at 2015-01-28 20:14:12 new feature is not better
+at 2015-01-28 20:14:12 started testing with features [49]
+at 2015-01-28 20:18:46 old score: 0.59182924%, old features set: [39]. new score: 0.55341857%, new features: set [49] 
+at 2015-01-28 20:18:46 new feature is not better
+at 2015-01-28 20:18:46 started testing with features [50]
+at 2015-01-28 20:23:29 old score: 0.59182924%, old features set: [39]. new score: 0.54632588%, new features: set [50] 
+at 2015-01-28 20:23:29 new feature is not better
+at 2015-01-28 20:23:29 started testing with features [51]
+at 2015-01-28 20:28:41 old score: 0.59182924%, old features set: [39]. new score: 0.53449296%, new features: set [51] 
+at 2015-01-28 20:28:41 new feature is not better
+at 2015-01-28 20:28:41 started testing with features [52]
+at 2015-01-28 20:33:39 old score: 0.59182924%, old features set: [39]. new score: 0.53620633%, new features: set [52] 
+at 2015-01-28 20:33:39 new feature is not better
+at 2015-01-28 20:33:39 started testing with features [53]
+at 2015-01-28 20:38:40 old score: 0.59182924%, old features set: [39]. new score: 0.55402476%, new features: set [53] 
+at 2015-01-28 20:38:40 new feature is not better
+at 2015-01-28 20:38:40 started testing with features [54]
+at 2015-01-28 20:43:56 old score: 0.59182924%, old features set: [39]. new score: 0.52417391%, new features: set [54] 
+at 2015-01-28 20:43:56 new feature is not better
+at 2015-01-28 20:43:56 started testing with features [55]
+at 2015-01-28 20:48:46 old score: 0.59182924%, old features set: [39]. new score: 0.52999645%, new features: set [55] 
+at 2015-01-28 20:48:46 new feature is not better
+at 2015-01-28 20:48:46 started testing with features [56]
+at 2015-01-28 20:53:50 old score: 0.59182924%, old features set: [39]. new score: 0.42654028%, new features: set [56] 
+at 2015-01-28 20:53:50 new feature is not better
+*************************************
+at 2015-01-28 20:53:50 old score: 0.00000000%, old features set: []. new score: 0.59182924%, new features set [39]
+at 2015-01-28 20:53:50 let's repeat once again
+at 2015-01-28 20:53:50 started testing with features [39, 0]
+at 2015-01-28 21:01:47 old score: 0.59182924%, old features set: [39]. new score: 0.67416425%, new features: set [39, 0] 
+at 2015-01-28 21:01:47 new feature is better
+at 2015-01-28 21:01:47 started testing with features [39, 1]
+at 2015-01-28 21:09:55 old score: 0.67416425%, old features set: [39, 0]. new score: 0.67023035%, new features: set [39, 1] 
+at 2015-01-28 21:09:55 new feature is not better
+at 2015-01-28 21:09:55 started testing with features [39, 2]
+at 2015-01-28 21:18:34 old score: 0.67416425%, old features set: [39, 0]. new score: 0.60293720%, new features: set [39, 2] 
+at 2015-01-28 21:18:34 new feature is not better
+at 2015-01-28 21:18:34 started testing with features [39, 3]
+at 2015-01-28 21:26:54 old score: 0.67416425%, old features set: [39, 0]. new score: 0.63741063%, new features: set [39, 3] 
+at 2015-01-28 21:26:54 new feature is not better
+at 2015-01-28 21:26:54 started testing with features [39, 4]
+at 2015-01-28 21:35:26 old score: 0.67416425%, old features set: [39, 0]. new score: 0.64738164%, new features: set [39, 4] 
+at 2015-01-28 21:35:26 new feature is not better
+at 2015-01-28 21:35:26 started testing with features [39, 5]
+at 2015-01-28 21:43:38 old score: 0.67416425%, old features set: [39, 0]. new score: 0.62245411%, new features: set [39, 5] 
+at 2015-01-28 21:43:38 new feature is not better
+at 2015-01-28 21:43:38 started testing with features [39, 6]
+at 2015-01-28 21:51:37 old score: 0.67416425%, old features set: [39, 0]. new score: 0.64177778%, new features: set [39, 6] 
+at 2015-01-28 21:51:37 new feature is not better
+at 2015-01-28 21:51:37 started testing with features [39, 7]
+at 2015-01-28 21:59:08 old score: 0.67416425%, old features set: [39, 0]. new score: 0.61503382%, new features: set [39, 7] 
+at 2015-01-28 21:59:08 new feature is not better
+at 2015-01-28 21:59:08 started testing with features [39, 8]
+at 2015-01-28 22:07:05 old score: 0.67416425%, old features set: [39, 0]. new score: 0.59142029%, new features: set [39, 8] 
+at 2015-01-28 22:07:05 new feature is not better
+at 2015-01-28 22:07:05 started testing with features [39, 9]
+at 2015-01-28 22:15:46 old score: 0.67416425%, old features set: [39, 0]. new score: 0.62353623%, new features: set [39, 9] 
+at 2015-01-28 22:15:46 new feature is not better
+at 2015-01-28 22:15:46 started testing with features [39, 10]
+at 2015-01-28 22:24:13 old score: 0.67416425%, old features set: [39, 0]. new score: 0.57105314%, new features: set [39, 10] 
+at 2015-01-28 22:24:13 new feature is not better
+at 2015-01-28 22:24:13 started testing with features [39, 11]
+at 2015-01-28 22:32:41 old score: 0.67416425%, old features set: [39, 0]. new score: 0.61495652%, new features: set [39, 11] 
+at 2015-01-28 22:32:41 new feature is not better
+at 2015-01-28 22:32:41 started testing with features [39, 12]
+at 2015-01-28 22:40:16 old score: 0.67416425%, old features set: [39, 0]. new score: 0.61909179%, new features: set [39, 12] 
+at 2015-01-28 22:40:16 new feature is not better
+at 2015-01-28 22:40:16 started testing with features [39, 13]
+at 2015-01-28 22:48:15 old score: 0.67416425%, old features set: [39, 0]. new score: 0.59408696%, new features: set [39, 13] 
+at 2015-01-28 22:48:15 new feature is not better
+at 2015-01-28 22:48:15 started testing with features [39, 14]
+at 2015-01-28 22:56:42 old score: 0.67416425%, old features set: [39, 0]. new score: 0.62018724%, new features: set [39, 14] 
+at 2015-01-28 22:56:42 new feature is not better
+at 2015-01-28 22:56:42 started testing with features [39, 15]
+at 2015-01-28 23:05:01 old score: 0.67416425%, old features set: [39, 0]. new score: 0.60467633%, new features: set [39, 15] 
+at 2015-01-28 23:05:01 new feature is not better
+at 2015-01-28 23:05:01 started testing with features [39, 16]
+at 2015-01-28 23:12:39 old score: 0.67416425%, old features set: [39, 0]. new score: 0.61167150%, new features: set [39, 16] 
+at 2015-01-28 23:12:39 new feature is not better
+at 2015-01-28 23:12:39 started testing with features [39, 17]
+at 2015-01-28 23:21:09 old score: 0.67416425%, old features set: [39, 0]. new score: 0.60954589%, new features: set [39, 17] 
+at 2015-01-28 23:21:09 new feature is not better
+at 2015-01-28 23:21:09 started testing with features [39, 18]
+at 2015-01-28 23:30:21 old score: 0.67416425%, old features set: [39, 0]. new score: 0.60000000%, new features: set [39, 18] 
+at 2015-01-28 23:30:21 new feature is not better
+at 2015-01-28 23:30:21 started testing with features [39, 19]
+at 2015-01-28 23:39:53 old score: 0.67416425%, old features set: [39, 0]. new score: 0.59403358%, new features: set [39, 19] 
+at 2015-01-28 23:39:53 new feature is not better
+at 2015-01-28 23:39:53 started testing with features [39, 20]
+at 2015-01-28 23:49:04 old score: 0.67416425%, old features set: [39, 0]. new score: 0.61101449%, new features: set [39, 20] 
+at 2015-01-28 23:49:04 new feature is not better
+at 2015-01-28 23:49:04 started testing with features [39, 21]
+at 2015-01-28 23:58:30 old score: 0.67416425%, old features set: [39, 0]. new score: 0.60633816%, new features: set [39, 21] 
+at 2015-01-28 23:58:30 new feature is not better
+at 2015-01-28 23:58:30 started testing with features [39, 22]
+at 2015-01-29 00:07:13 old score: 0.67416425%, old features set: [39, 0]. new score: 0.61209662%, new features: set [39, 22] 
+at 2015-01-29 00:07:13 new feature is not better
+at 2015-01-29 00:07:13 started testing with features [39, 23]
+at 2015-01-29 00:15:56 old score: 0.67416425%, old features set: [39, 0]. new score: 0.59613527%, new features: set [39, 23] 
+at 2015-01-29 00:15:56 new feature is not better
+at 2015-01-29 00:15:56 started testing with features [39, 24]
+at 2015-01-29 00:25:25 old score: 0.67416425%, old features set: [39, 0]. new score: 0.59737683%, new features: set [39, 24] 
+at 2015-01-29 00:25:25 new feature is not better
+at 2015-01-29 00:25:25 started testing with features [39, 25]
+at 2015-01-29 00:34:38 old score: 0.67416425%, old features set: [39, 0]. new score: 0.60061836%, new features: set [39, 25] 
+at 2015-01-29 00:34:38 new feature is not better
+at 2015-01-29 00:34:38 started testing with features [39, 26]
+at 2015-01-29 00:42:57 old score: 0.67416425%, old features set: [39, 0]. new score: 0.59656039%, new features: set [39, 26] 
+at 2015-01-29 00:42:57 new feature is not better
+at 2015-01-29 00:42:57 started testing with features [39, 27]
+at 2015-01-29 00:51:47 old score: 0.67416425%, old features set: [39, 0]. new score: 0.55969082%, new features: set [39, 27] 
+at 2015-01-29 00:51:47 new feature is not better
+at 2015-01-29 00:51:47 started testing with features [39, 28]
+at 2015-01-29 01:00:08 old score: 0.67416425%, old features set: [39, 0]. new score: 0.57287189%, new features: set [39, 28] 
+at 2015-01-29 01:00:08 new feature is not better
+at 2015-01-29 01:00:08 started testing with features [39, 29]
+at 2015-01-29 01:09:03 old score: 0.67416425%, old features set: [39, 0]. new score: 0.56997101%, new features: set [39, 29] 
+at 2015-01-29 01:09:03 new feature is not better
+at 2015-01-29 01:09:03 started testing with features [39, 30]
+at 2015-01-29 01:17:53 old score: 0.67416425%, old features set: [39, 0]. new score: 0.53828019%, new features: set [39, 30] 
+at 2015-01-29 01:17:53 new feature is not better
+at 2015-01-29 01:17:53 started testing with features [39, 31]
+at 2015-01-29 01:26:34 old score: 0.67416425%, old features set: [39, 0]. new score: 0.57702340%, new features: set [39, 31] 
+at 2015-01-29 01:26:34 new feature is not better
+at 2015-01-29 01:26:34 started testing with features [39, 32]
+at 2015-01-29 01:35:09 old score: 0.67416425%, old features set: [39, 0]. new score: 0.61262354%, new features: set [39, 32] 
+at 2015-01-29 01:35:09 new feature is not better
+at 2015-01-29 01:35:09 started testing with features [39, 33]
+at 2015-01-29 01:43:44 old score: 0.67416425%, old features set: [39, 0]. new score: 0.58014622%, new features: set [39, 33] 
+at 2015-01-29 01:43:44 new feature is not better
+at 2015-01-29 01:43:44 started testing with features [39, 34]
+at 2015-01-29 01:52:33 old score: 0.67416425%, old features set: [39, 0]. new score: 0.60968441%, new features: set [39, 34] 
+at 2015-01-29 01:52:33 new feature is not better
+at 2015-01-29 01:52:33 started testing with features [39, 35]
+at 2015-01-29 02:01:15 old score: 0.67416425%, old features set: [39, 0]. new score: 0.58740097%, new features: set [39, 35] 
+at 2015-01-29 02:01:15 new feature is not better
+at 2015-01-29 02:01:15 started testing with features [39, 36]
+at 2015-01-29 02:09:41 old score: 0.67416425%, old features set: [39, 0]. new score: 0.56150725%, new features: set [39, 36] 
+at 2015-01-29 02:09:41 new feature is not better
+at 2015-01-29 02:09:41 started testing with features [39, 37]
+at 2015-01-29 02:18:23 old score: 0.67416425%, old features set: [39, 0]. new score: 0.55957236%, new features: set [39, 37] 
+at 2015-01-29 02:18:23 new feature is not better
+at 2015-01-29 02:18:23 started testing with features [39, 38]
+at 2015-01-29 02:26:38 old score: 0.67416425%, old features set: [39, 0]. new score: 0.57951691%, new features: set [39, 38] 
+at 2015-01-29 02:26:38 new feature is not better
+at 2015-01-29 02:26:38 started testing with features [39, 40]
+at 2015-01-29 02:34:58 old score: 0.67416425%, old features set: [39, 0]. new score: 0.57522705%, new features: set [39, 40] 
+at 2015-01-29 02:34:58 new feature is not better
+at 2015-01-29 02:34:58 started testing with features [39, 41]
+at 2015-01-29 02:43:23 old score: 0.67416425%, old features set: [39, 0]. new score: 0.56155627%, new features: set [39, 41] 
+at 2015-01-29 02:43:23 new feature is not better
+at 2015-01-29 02:43:23 started testing with features [39, 42]
+at 2015-01-29 02:52:02 old score: 0.67416425%, old features set: [39, 0]. new score: 0.56218083%, new features: set [39, 42] 
+at 2015-01-29 02:52:02 new feature is not better
+at 2015-01-29 02:52:02 started testing with features [39, 43]
+at 2015-01-29 03:00:36 old score: 0.67416425%, old features set: [39, 0]. new score: 0.57000625%, new features: set [39, 43] 
+at 2015-01-29 03:00:36 new feature is not better
+at 2015-01-29 03:00:36 started testing with features [39, 44]
+at 2015-01-29 03:09:13 old score: 0.67416425%, old features set: [39, 0]. new score: 0.59053140%, new features: set [39, 44] 
+at 2015-01-29 03:09:13 new feature is not better
+at 2015-01-29 03:09:13 started testing with features [39, 45]
+at 2015-01-29 03:17:44 old score: 0.67416425%, old features set: [39, 0]. new score: 0.50299517%, new features: set [39, 45] 
+at 2015-01-29 03:17:44 new feature is not better
+at 2015-01-29 03:17:44 started testing with features [39, 46]
+at 2015-01-29 03:26:16 old score: 0.67416425%, old features set: [39, 0]. new score: 0.55184541%, new features: set [39, 46] 
+at 2015-01-29 03:26:16 new feature is not better
+at 2015-01-29 03:26:16 started testing with features [39, 47]
+at 2015-01-29 03:35:14 old score: 0.67416425%, old features set: [39, 0]. new score: 0.59598068%, new features: set [39, 47] 
+at 2015-01-29 03:35:14 new feature is not better
+at 2015-01-29 03:35:14 started testing with features [39, 48]
+at 2015-01-29 03:43:38 old score: 0.67416425%, old features set: [39, 0]. new score: 0.57534300%, new features: set [39, 48] 
+at 2015-01-29 03:43:38 new feature is not better
+at 2015-01-29 03:43:38 started testing with features [39, 49]
+at 2015-01-29 03:51:51 old score: 0.67416425%, old features set: [39, 0]. new score: 0.57232850%, new features: set [39, 49] 
+at 2015-01-29 03:51:51 new feature is not better
+at 2015-01-29 03:51:51 started testing with features [39, 50]
+at 2015-01-29 04:00:18 old score: 0.67416425%, old features set: [39, 0]. new score: 0.55362063%, new features: set [39, 50] 
+at 2015-01-29 04:00:18 new feature is not better
+at 2015-01-29 04:00:18 started testing with features [39, 51]
+at 2015-01-29 04:08:50 old score: 0.67416425%, old features set: [39, 0]. new score: 0.56869565%, new features: set [39, 51] 
+at 2015-01-29 04:08:50 new feature is not better
+at 2015-01-29 04:08:50 started testing with features [39, 52]
+at 2015-01-29 04:17:32 old score: 0.67416425%, old features set: [39, 0]. new score: 0.56730435%, new features: set [39, 52] 
+at 2015-01-29 04:17:32 new feature is not better
+at 2015-01-29 04:17:32 started testing with features [39, 53]
+at 2015-01-29 04:25:59 old score: 0.67416425%, old features set: [39, 0]. new score: 0.57379710%, new features: set [39, 53] 
+at 2015-01-29 04:25:59 new feature is not better
+at 2015-01-29 04:25:59 started testing with features [39, 54]
+at 2015-01-29 04:34:37 old score: 0.67416425%, old features set: [39, 0]. new score: 0.51261836%, new features: set [39, 54] 
+at 2015-01-29 04:34:37 new feature is not better
+at 2015-01-29 04:34:37 started testing with features [39, 55]
+at 2015-01-29 04:42:52 old score: 0.67416425%, old features set: [39, 0]. new score: 0.55945894%, new features: set [39, 55] 
+at 2015-01-29 04:42:52 new feature is not better
+at 2015-01-29 04:42:52 started testing with features [39, 56]
+at 2015-01-29 04:51:06 old score: 0.67416425%, old features set: [39, 0]. new score: 0.51030530%, new features: set [39, 56] 
+at 2015-01-29 04:51:06 new feature is not better
+*************************************
+at 2015-01-29 04:51:06 old score: 0.59182924%, old features set: [39]. new score: 0.67416425%, new features set [39, 0]
+at 2015-01-29 04:51:06 let's repeat once again
+at 2015-01-29 04:51:06 started testing with features [39, 0, 1]
+at 2015-01-29 05:02:29 old score: 0.67416425%, old features set: [39, 0]. new score: 0.64006760%, new features: set [39, 0, 1] 
+at 2015-01-29 05:02:29 new feature is not better
+at 2015-01-29 05:02:29 started testing with features [39, 0, 2]
+at 2015-01-29 05:13:52 old score: 0.67416425%, old features set: [39, 0]. new score: 0.63528502%, new features: set [39, 0, 2] 
+at 2015-01-29 05:13:52 new feature is not better
+at 2015-01-29 05:13:52 started testing with features [39, 0, 3]
+at 2015-01-29 05:25:27 old score: 0.67416425%, old features set: [39, 0]. new score: 0.65255802%, new features: set [39, 0, 3] 
+at 2015-01-29 05:25:27 new feature is not better
+at 2015-01-29 05:25:27 started testing with features [39, 0, 4]
+at 2015-01-29 05:36:56 old score: 0.67416425%, old features set: [39, 0]. new score: 0.64826041%, new features: set [39, 0, 4] 
+at 2015-01-29 05:36:56 new feature is not better
+at 2015-01-29 05:36:56 started testing with features [39, 0, 5]
+at 2015-01-29 05:48:26 old score: 0.67416425%, old features set: [39, 0]. new score: 0.61491787%, new features: set [39, 0, 5] 
+at 2015-01-29 05:48:26 new feature is not better
+at 2015-01-29 05:48:26 started testing with features [39, 0, 6]
+at 2015-01-29 05:59:51 old score: 0.67416425%, old features set: [39, 0]. new score: 0.64135347%, new features: set [39, 0, 6] 
+at 2015-01-29 05:59:51 new feature is not better
+at 2015-01-29 05:59:51 started testing with features [39, 0, 7]
+at 2015-01-29 06:11:22 old score: 0.67416425%, old features set: [39, 0]. new score: 0.64414563%, new features: set [39, 0, 7] 
+at 2015-01-29 06:11:22 new feature is not better
+at 2015-01-29 06:11:22 started testing with features [39, 0, 8]
+at 2015-01-29 06:22:34 old score: 0.67416425%, old features set: [39, 0]. new score: 0.60730435%, new features: set [39, 0, 8] 
+at 2015-01-29 06:22:34 new feature is not better
+at 2015-01-29 06:22:34 started testing with features [39, 0, 9]
+at 2015-01-29 06:33:42 old score: 0.67416425%, old features set: [39, 0]. new score: 0.63357068%, new features: set [39, 0, 9] 
+at 2015-01-29 06:33:42 new feature is not better
+at 2015-01-29 06:33:42 started testing with features [39, 0, 10]
+at 2015-01-29 06:44:56 old score: 0.67416425%, old features set: [39, 0]. new score: 0.62148792%, new features: set [39, 0, 10] 
+at 2015-01-29 06:44:56 new feature is not better
+at 2015-01-29 06:44:56 started testing with features [39, 0, 11]
+at 2015-01-29 06:56:12 old score: 0.67416425%, old features set: [39, 0]. new score: 0.64081159%, new features: set [39, 0, 11] 
+at 2015-01-29 06:56:12 new feature is not better
+at 2015-01-29 06:56:12 started testing with features [39, 0, 12]
+at 2015-01-29 07:07:21 old score: 0.67416425%, old features set: [39, 0]. new score: 0.66330435%, new features: set [39, 0, 12] 
+at 2015-01-29 07:07:21 new feature is not better
+at 2015-01-29 07:07:21 started testing with features [39, 0, 13]
+at 2015-01-29 07:18:39 old score: 0.67416425%, old features set: [39, 0]. new score: 0.62388406%, new features: set [39, 0, 13] 
+at 2015-01-29 07:18:39 new feature is not better
+at 2015-01-29 07:18:39 started testing with features [39, 0, 14]
+at 2015-01-29 07:30:01 old score: 0.67416425%, old features set: [39, 0]. new score: 0.60908213%, new features: set [39, 0, 14] 
+at 2015-01-29 07:30:01 new feature is not better
+at 2015-01-29 07:30:01 started testing with features [39, 0, 15]
+at 2015-01-29 07:41:15 old score: 0.67416425%, old features set: [39, 0]. new score: 0.64015459%, new features: set [39, 0, 15] 
+at 2015-01-29 07:41:15 new feature is not better
+at 2015-01-29 07:41:15 started testing with features [39, 0, 16]
+at 2015-01-29 07:52:50 old score: 0.67416425%, old features set: [39, 0]. new score: 0.67203865%, new features: set [39, 0, 16] 
+at 2015-01-29 07:52:50 new feature is not better
+at 2015-01-29 07:52:50 started testing with features [39, 0, 17]
+at 2015-01-29 08:06:50 old score: 0.67416425%, old features set: [39, 0]. new score: 0.62886957%, new features: set [39, 0, 17] 
+at 2015-01-29 08:06:50 new feature is not better
+at 2015-01-29 08:06:50 started testing with features [39, 0, 18]
+at 2015-01-29 08:22:05 old score: 0.67416425%, old features set: [39, 0]. new score: 0.61418776%, new features: set [39, 0, 18] 
+at 2015-01-29 08:22:05 new feature is not better
+at 2015-01-29 08:22:05 started testing with features [39, 0, 19]
+at 2015-01-29 08:34:29 old score: 0.67416425%, old features set: [39, 0]. new score: 0.67938164%, new features: set [39, 0, 19] 
+at 2015-01-29 08:34:29 new feature is better
+at 2015-01-29 08:34:29 started testing with features [39, 0, 20]
+at 2015-01-29 08:46:29 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.65171014%, new features: set [39, 0, 20] 
+at 2015-01-29 08:46:29 new feature is not better
+at 2015-01-29 08:46:29 started testing with features [39, 0, 21]
+at 2015-01-29 08:58:30 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.64514010%, new features: set [39, 0, 21] 
+at 2015-01-29 08:58:30 new feature is not better
+at 2015-01-29 08:58:30 started testing with features [39, 0, 22]
+at 2015-01-29 09:10:17 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.63505314%, new features: set [39, 0, 22] 
+at 2015-01-29 09:10:17 new feature is not better
+at 2015-01-29 09:10:17 started testing with features [39, 0, 23]
+at 2015-01-29 09:22:48 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.61460870%, new features: set [39, 0, 23] 
+at 2015-01-29 09:22:48 new feature is not better
+at 2015-01-29 09:22:48 started testing with features [39, 0, 24]
+at 2015-01-29 09:36:21 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.64351691%, new features: set [39, 0, 24] 
+at 2015-01-29 09:36:21 new feature is not better
+at 2015-01-29 09:36:21 started testing with features [39, 0, 25]
+at 2015-01-29 09:48:05 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.66821256%, new features: set [39, 0, 25] 
+at 2015-01-29 09:48:05 new feature is not better
+at 2015-01-29 09:48:05 started testing with features [39, 0, 26]
+at 2015-01-29 09:59:16 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.66546860%, new features: set [39, 0, 26] 
+at 2015-01-29 09:59:16 new feature is not better
+at 2015-01-29 09:59:16 started testing with features [39, 0, 27]
+at 2015-01-29 10:10:25 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.67366184%, new features: set [39, 0, 27] 
+at 2015-01-29 10:10:25 new feature is not better
+at 2015-01-29 10:10:25 started testing with features [39, 0, 28]
+at 2015-01-29 10:21:35 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.65719807%, new features: set [39, 0, 28] 
+at 2015-01-29 10:21:35 new feature is not better
+at 2015-01-29 10:21:35 started testing with features [39, 0, 29]
+at 2015-01-29 10:32:49 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.63424155%, new features: set [39, 0, 29] 
+at 2015-01-29 10:32:49 new feature is not better
+at 2015-01-29 10:32:49 started testing with features [39, 0, 30]
+at 2015-01-29 10:44:04 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.64398734%, new features: set [39, 0, 30] 
+at 2015-01-29 10:44:04 new feature is not better
+at 2015-01-29 10:44:04 started testing with features [39, 0, 31]
+at 2015-01-29 10:55:41 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.66442512%, new features: set [39, 0, 31] 
+at 2015-01-29 10:55:41 new feature is not better
+at 2015-01-29 10:55:41 started testing with features [39, 0, 32]
+at 2015-01-29 11:07:23 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.59752657%, new features: set [39, 0, 32] 
+at 2015-01-29 11:07:23 new feature is not better
+at 2015-01-29 11:07:23 started testing with features [39, 0, 33]
+at 2015-01-29 11:18:51 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.63219324%, new features: set [39, 0, 33] 
+at 2015-01-29 11:18:51 new feature is not better
+at 2015-01-29 11:18:51 started testing with features [39, 0, 34]
+at 2015-01-29 11:30:30 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.67640580%, new features: set [39, 0, 34] 
+at 2015-01-29 11:30:30 new feature is not better
+at 2015-01-29 11:30:30 started testing with features [39, 0, 35]
+at 2015-01-29 11:41:47 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.67308213%, new features: set [39, 0, 35] 
+at 2015-01-29 11:41:47 new feature is not better
+at 2015-01-29 11:41:47 started testing with features [39, 0, 36]
+at 2015-01-29 11:53:34 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.65885990%, new features: set [39, 0, 36] 
+at 2015-01-29 11:53:34 new feature is not better
+at 2015-01-29 11:53:34 started testing with features [39, 0, 37]
+at 2015-01-29 12:05:02 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.62565928%, new features: set [39, 0, 37] 
+at 2015-01-29 12:05:02 new feature is not better
+at 2015-01-29 12:05:02 started testing with features [39, 0, 38]
+at 2015-01-29 12:16:05 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.58649789%, new features: set [39, 0, 38] 
+at 2015-01-29 12:16:05 new feature is not better
+at 2015-01-29 12:16:05 started testing with features [39, 0, 40]
+at 2015-01-29 12:27:16 old score: 0.67938164%, old features set: [39, 0, 19]. new score: 0.68314976%, new features: set [39, 0, 40] 
+at 2015-01-29 12:27:16 new feature is better
+at 2015-01-29 12:27:16 started testing with features [39, 0, 41]
+at 2015-01-29 12:38:29 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.62151438%, new features: set [39, 0, 41] 
+at 2015-01-29 12:38:29 new feature is not better
+at 2015-01-29 12:38:29 started testing with features [39, 0, 42]
+at 2015-01-29 12:49:53 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.62724638%, new features: set [39, 0, 42] 
+at 2015-01-29 12:49:53 new feature is not better
+at 2015-01-29 12:49:53 started testing with features [39, 0, 43]
+at 2015-01-29 13:01:28 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.65967150%, new features: set [39, 0, 43] 
+at 2015-01-29 13:01:28 new feature is not better
+at 2015-01-29 13:01:28 started testing with features [39, 0, 44]
+at 2015-01-29 13:13:06 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.64622890%, new features: set [39, 0, 44] 
+at 2015-01-29 13:13:06 new feature is not better
+at 2015-01-29 13:13:06 started testing with features [39, 0, 45]
+at 2015-01-29 13:24:24 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.64714976%, new features: set [39, 0, 45] 
+at 2015-01-29 13:24:24 new feature is not better
+at 2015-01-29 13:24:24 started testing with features [39, 0, 46]
+at 2015-01-29 13:35:39 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.64309179%, new features: set [39, 0, 46] 
+at 2015-01-29 13:35:39 new feature is not better
+at 2015-01-29 13:35:39 started testing with features [39, 0, 47]
+at 2015-01-29 13:47:03 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.65611814%, new features: set [39, 0, 47] 
+at 2015-01-29 13:47:03 new feature is not better
+at 2015-01-29 13:47:03 started testing with features [39, 0, 48]
+at 2015-01-29 13:58:45 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.63737198%, new features: set [39, 0, 48] 
+at 2015-01-29 13:58:45 new feature is not better
+at 2015-01-29 13:58:45 started testing with features [39, 0, 49]
+at 2015-01-29 14:09:59 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.62786473%, new features: set [39, 0, 49] 
+at 2015-01-29 14:09:59 new feature is not better
+at 2015-01-29 14:09:59 started testing with features [39, 0, 50]
+at 2015-01-29 14:21:21 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.61561353%, new features: set [39, 0, 50] 
+at 2015-01-29 14:21:21 new feature is not better
+at 2015-01-29 14:21:21 started testing with features [39, 0, 51]
+at 2015-01-29 14:33:04 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.63551691%, new features: set [39, 0, 51] 
+at 2015-01-29 14:33:04 new feature is not better
+at 2015-01-29 14:33:04 started testing with features [39, 0, 52]
+at 2015-01-29 14:44:40 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.67443478%, new features: set [39, 0, 52] 
+at 2015-01-29 14:44:40 new feature is not better
+at 2015-01-29 14:44:40 started testing with features [39, 0, 53]
+at 2015-01-29 14:55:44 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.63107246%, new features: set [39, 0, 53] 
+at 2015-01-29 14:55:44 new feature is not better
+at 2015-01-29 14:55:44 started testing with features [39, 0, 54]
+at 2015-01-29 15:06:58 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.60705314%, new features: set [39, 0, 54] 
+at 2015-01-29 15:06:58 new feature is not better
+at 2015-01-29 15:06:58 started testing with features [39, 0, 55]
+at 2015-01-29 15:18:05 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.64483092%, new features: set [39, 0, 55] 
+at 2015-01-29 15:18:05 new feature is not better
+at 2015-01-29 15:18:05 started testing with features [39, 0, 56]
+at 2015-01-29 15:29:39 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.58334252%, new features: set [39, 0, 56] 
+at 2015-01-29 15:29:39 new feature is not better
+*************************************
+at 2015-01-29 15:29:39 old score: 0.67416425%, old features set: [39, 0]. new score: 0.68314976%, new features set [39, 0, 40]
+at 2015-01-29 15:29:39 let's repeat once again
+at 2015-01-29 15:29:39 started testing with features [39, 0, 40, 1]
+at 2015-01-29 15:44:13 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.64091260%, new features: set [39, 0, 40, 1] 
+at 2015-01-29 15:44:13 new feature is not better
+at 2015-01-29 15:44:13 started testing with features [39, 0, 40, 2]
+at 2015-01-29 15:58:35 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.62208696%, new features: set [39, 0, 40, 2] 
+at 2015-01-29 15:58:35 new feature is not better
+at 2015-01-29 15:58:35 started testing with features [39, 0, 40, 3]
+at 2015-01-29 16:13:06 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.65271498%, new features: set [39, 0, 40, 3] 
+at 2015-01-29 16:13:06 new feature is not better
+at 2015-01-29 16:13:06 started testing with features [39, 0, 40, 4]
+at 2015-01-29 16:27:16 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.64602899%, new features: set [39, 0, 40, 4] 
+at 2015-01-29 16:27:16 new feature is not better
+at 2015-01-29 16:27:16 started testing with features [39, 0, 40, 5]
+at 2015-01-29 16:42:05 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.58894686%, new features: set [39, 0, 40, 5] 
+at 2015-01-29 16:42:05 new feature is not better
+at 2015-01-29 16:42:05 started testing with features [39, 0, 40, 6]
+at 2015-01-29 16:56:31 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.62013527%, new features: set [39, 0, 40, 6] 
+at 2015-01-29 16:56:31 new feature is not better
+at 2015-01-29 16:56:31 started testing with features [39, 0, 40, 7]
+at 2015-01-29 17:11:16 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.64175760%, new features: set [39, 0, 40, 7] 
+at 2015-01-29 17:11:16 new feature is not better
+at 2015-01-29 17:11:16 started testing with features [39, 0, 40, 8]
+at 2015-01-29 17:25:59 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.59261836%, new features: set [39, 0, 40, 8] 
+at 2015-01-29 17:25:59 new feature is not better
+at 2015-01-29 17:25:59 started testing with features [39, 0, 40, 9]
+at 2015-01-29 17:39:26 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.62780676%, new features: set [39, 0, 40, 9] 
+at 2015-01-29 17:39:26 new feature is not better
+at 2015-01-29 17:39:26 started testing with features [39, 0, 40, 10]
+at 2015-01-29 17:54:52 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.60061836%, new features: set [39, 0, 40, 10] 
+at 2015-01-29 17:54:52 new feature is not better
+at 2015-01-29 17:54:52 started testing with features [39, 0, 40, 11]
+at 2015-01-29 18:08:31 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.66917194%, new features: set [39, 0, 40, 11] 
+at 2015-01-29 18:08:31 new feature is not better
+at 2015-01-29 18:08:31 started testing with features [39, 0, 40, 12]
+at 2015-01-29 18:21:50 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.64092754%, new features: set [39, 0, 40, 12] 
+at 2015-01-29 18:21:50 new feature is not better
+at 2015-01-29 18:21:50 started testing with features [39, 0, 40, 13]
+at 2015-01-29 18:35:14 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.64684058%, new features: set [39, 0, 40, 13] 
+at 2015-01-29 18:35:14 new feature is not better
+at 2015-01-29 18:35:14 started testing with features [39, 0, 40, 14]
+at 2015-01-29 18:48:43 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.63308213%, new features: set [39, 0, 40, 14] 
+at 2015-01-29 18:48:43 new feature is not better
+at 2015-01-29 18:48:43 started testing with features [39, 0, 40, 15]
+at 2015-01-29 19:02:02 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.65692754%, new features: set [39, 0, 40, 15] 
+at 2015-01-29 19:02:02 new feature is not better
+at 2015-01-29 19:02:02 started testing with features [39, 0, 40, 16]
+at 2015-01-29 19:15:23 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.66856039%, new features: set [39, 0, 40, 16] 
+at 2015-01-29 19:15:23 new feature is not better
+at 2015-01-29 19:15:23 started testing with features [39, 0, 40, 17]
+at 2015-01-29 19:28:41 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.59918841%, new features: set [39, 0, 40, 17] 
+at 2015-01-29 19:28:41 new feature is not better
+at 2015-01-29 19:28:41 started testing with features [39, 0, 40, 18]
+at 2015-01-29 19:41:57 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.62318841%, new features: set [39, 0, 40, 18] 
+at 2015-01-29 19:41:57 new feature is not better
+at 2015-01-29 19:41:57 started testing with features [39, 0, 40, 19]
+at 2015-01-29 19:57:56 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.65070531%, new features: set [39, 0, 40, 19] 
+at 2015-01-29 19:57:56 new feature is not better
+at 2015-01-29 19:57:56 started testing with features [39, 0, 40, 20]
+at 2015-01-29 20:13:48 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.62914010%, new features: set [39, 0, 40, 20] 
+at 2015-01-29 20:13:48 new feature is not better
+at 2015-01-29 20:13:48 started testing with features [39, 0, 40, 21]
+at 2015-01-29 20:28:48 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.60908213%, new features: set [39, 0, 40, 21] 
+at 2015-01-29 20:28:48 new feature is not better
+at 2015-01-29 20:28:48 started testing with features [39, 0, 40, 22]
+at 2015-01-29 20:45:17 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.65688889%, new features: set [39, 0, 40, 22] 
+at 2015-01-29 20:45:17 new feature is not better
+at 2015-01-29 20:45:17 started testing with features [39, 0, 40, 23]
+at 2015-01-29 20:59:30 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.61835749%, new features: set [39, 0, 40, 23] 
+at 2015-01-29 20:59:30 new feature is not better
+at 2015-01-29 20:59:30 started testing with features [39, 0, 40, 24]
+at 2015-01-29 21:15:07 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.63969082%, new features: set [39, 0, 40, 24] 
+at 2015-01-29 21:15:07 new feature is not better
+at 2015-01-29 21:15:07 started testing with features [39, 0, 40, 25]
+at 2015-01-29 21:29:10 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.62886957%, new features: set [39, 0, 40, 25] 
+at 2015-01-29 21:29:10 new feature is not better
+at 2015-01-29 21:29:10 started testing with features [39, 0, 40, 26]
+at 2015-01-29 21:41:42 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.63422996%, new features: set [39, 0, 40, 26] 
+at 2015-01-29 21:41:42 new feature is not better
+at 2015-01-29 21:41:42 started testing with features [39, 0, 40, 27]
+at 2015-01-29 21:54:26 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.61681159%, new features: set [39, 0, 40, 27] 
+at 2015-01-29 21:54:26 new feature is not better
+at 2015-01-29 21:54:26 started testing with features [39, 0, 40, 28]
+at 2015-01-29 22:07:10 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.64289855%, new features: set [39, 0, 40, 28] 
+at 2015-01-29 22:07:10 new feature is not better
+at 2015-01-29 22:07:10 started testing with features [39, 0, 40, 29]
+at 2015-01-29 22:19:53 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.61773913%, new features: set [39, 0, 40, 29] 
+at 2015-01-29 22:19:53 new feature is not better
+at 2015-01-29 22:19:53 started testing with features [39, 0, 40, 30]
+at 2015-01-29 22:32:21 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.66759420%, new features: set [39, 0, 40, 30] 
+at 2015-01-29 22:32:21 new feature is not better
+at 2015-01-29 22:32:21 started testing with features [39, 0, 40, 31]
+at 2015-01-29 22:44:58 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.65638647%, new features: set [39, 0, 40, 31] 
+at 2015-01-29 22:44:58 new feature is not better
+at 2015-01-29 22:44:58 started testing with features [39, 0, 40, 32]
+at 2015-01-29 22:57:36 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.61190338%, new features: set [39, 0, 40, 32] 
+at 2015-01-29 22:57:36 new feature is not better
+at 2015-01-29 22:57:36 started testing with features [39, 0, 40, 33]
+at 2015-01-29 23:10:46 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.50869720%, new features: set [39, 0, 40, 33] 
+at 2015-01-29 23:10:46 new feature is not better
+at 2015-01-29 23:10:46 started testing with features [39, 0, 40, 34]
+at 2015-01-29 23:23:37 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.63058937%, new features: set [39, 0, 40, 34] 
+at 2015-01-29 23:23:37 new feature is not better
+at 2015-01-29 23:23:37 started testing with features [39, 0, 40, 35]
+at 2015-01-29 23:37:03 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.64216425%, new features: set [39, 0, 40, 35] 
+at 2015-01-29 23:37:03 new feature is not better
+at 2015-01-29 23:37:03 started testing with features [39, 0, 40, 36]
+at 2015-01-29 23:50:30 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.62291787%, new features: set [39, 0, 40, 36] 
+at 2015-01-29 23:50:30 new feature is not better
+at 2015-01-29 23:50:30 started testing with features [39, 0, 40, 37]
+at 2015-01-30 00:03:06 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.66114010%, new features: set [39, 0, 40, 37] 
+at 2015-01-30 00:03:06 new feature is not better
+at 2015-01-30 00:03:06 started testing with features [39, 0, 40, 38]
+at 2015-01-30 00:15:38 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.65205797%, new features: set [39, 0, 40, 38] 
+at 2015-01-30 00:15:38 new feature is not better
+at 2015-01-30 00:15:38 started testing with features [39, 0, 40, 41]
+at 2015-01-30 00:28:26 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.62970719%, new features: set [39, 0, 40, 41] 
+at 2015-01-30 00:28:26 new feature is not better
+at 2015-01-30 00:28:26 started testing with features [39, 0, 40, 42]
+at 2015-01-30 00:41:25 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.62635749%, new features: set [39, 0, 40, 42] 
+at 2015-01-30 00:41:25 new feature is not better
+at 2015-01-30 00:41:25 started testing with features [39, 0, 40, 43]
+at 2015-01-30 00:54:08 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.62859903%, new features: set [39, 0, 40, 43] 
+at 2015-01-30 00:54:08 new feature is not better
+at 2015-01-30 00:54:08 started testing with features [39, 0, 40, 44]
+at 2015-01-30 01:07:00 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.66736232%, new features: set [39, 0, 40, 44] 
+at 2015-01-30 01:07:00 new feature is not better
+at 2015-01-30 01:07:00 started testing with features [39, 0, 40, 45]
+at 2015-01-30 01:20:10 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.65723671%, new features: set [39, 0, 40, 45] 
+at 2015-01-30 01:20:10 new feature is not better
+at 2015-01-30 01:20:10 started testing with features [39, 0, 40, 46]
+at 2015-01-30 01:34:43 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.66469565%, new features: set [39, 0, 40, 46] 
+at 2015-01-30 01:34:43 new feature is not better
+at 2015-01-30 01:34:43 started testing with features [39, 0, 40, 47]
+at 2015-01-30 01:49:43 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.63264768%, new features: set [39, 0, 40, 47] 
+at 2015-01-30 01:49:43 new feature is not better
+at 2015-01-30 01:49:43 started testing with features [39, 0, 40, 48]
+at 2015-01-30 02:03:23 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.62944928%, new features: set [39, 0, 40, 48] 
+at 2015-01-30 02:03:23 new feature is not better
+at 2015-01-30 02:03:23 started testing with features [39, 0, 40, 49]
+at 2015-01-30 02:17:27 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.64754747%, new features: set [39, 0, 40, 49] 
+at 2015-01-30 02:17:27 new feature is not better
+at 2015-01-30 02:17:27 started testing with features [39, 0, 40, 50]
+at 2015-01-30 02:31:44 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.63404831%, new features: set [39, 0, 40, 50] 
+at 2015-01-30 02:31:44 new feature is not better
+at 2015-01-30 02:31:44 started testing with features [39, 0, 40, 51]
+at 2015-01-30 02:45:46 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.62828986%, new features: set [39, 0, 40, 51] 
+at 2015-01-30 02:45:46 new feature is not better
+at 2015-01-30 02:45:46 started testing with features [39, 0, 40, 52]
+at 2015-01-30 02:58:19 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.67694686%, new features: set [39, 0, 40, 52] 
+at 2015-01-30 02:58:19 new feature is not better
+at 2015-01-30 02:58:19 started testing with features [39, 0, 40, 53]
+at 2015-01-30 03:10:51 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.65588406%, new features: set [39, 0, 40, 53] 
+at 2015-01-30 03:10:51 new feature is not better
+at 2015-01-30 03:10:51 started testing with features [39, 0, 40, 54]
+at 2015-01-30 03:23:27 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.61410628%, new features: set [39, 0, 40, 54] 
+at 2015-01-30 03:23:27 new feature is not better
+at 2015-01-30 03:23:27 started testing with features [39, 0, 40, 55]
+at 2015-01-30 03:36:04 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.65213527%, new features: set [39, 0, 40, 55] 
+at 2015-01-30 03:36:04 new feature is not better
+at 2015-01-30 03:36:04 started testing with features [39, 0, 40, 56]
+at 2015-01-30 03:48:51 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.61460744%, new features: set [39, 0, 40, 56] 
+at 2015-01-30 03:48:51 new feature is not better
+*************************************
+at 2015-01-30 03:48:51 old score: 0.68314976%, old features set: [39, 0, 40]. new score: 0.68314976%, new features set [39, 0, 40]
+at 2015-01-30 03:48:51 done
+[39, 0, 40]
+0.683149758454
+done
+
+Process finished with exit code 0

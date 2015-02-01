@@ -1,15 +1,24 @@
+from NoCSP.find_best_features import find_best_features
+from NoCSP.load_data import *
 from NoCSP.utils import *
-
 
 folder_name = '../../shrinked_data/'
 
-window_start = 60
-window_size = 150
-features = [39, 0, 40]
+
+window_start = 50
+window_size = 270
+features = [8, 14]
+
 # SVM or RMF or GBM
 alg = 'SVM'
 
 data, train_labels = load_data(folder_name, 'train')
+
+log('quick check started')
+
+W = np.loadtxt('data/weights.txt')
+data = apply_ICA_wgts(data, W)
+
 data = np.array(get_windows(data, window_start, window_size))
 if alg == 'SVM':
     data = preprocessing.scale(data)

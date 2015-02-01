@@ -1,8 +1,8 @@
 from NoCSP.find_best_features import find_best_features
 
 
-window_start = 0
-window_size = 260
+window_start = 60
+window_size = 150
 
 # SVM or RMF or GBM
 alg = 'SVM'
