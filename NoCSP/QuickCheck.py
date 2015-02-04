@@ -3,9 +3,9 @@ from NoCSP.utils import *
 
 folder_name = '../../shrinked_data/'
 
-window_start = 60
-window_size = 150
-features = [39, 0, 40]
+window_start = 50
+window_size = 270
+features = [19]
 # SVM or RMF or GBM
 alg = 'SVM'
 

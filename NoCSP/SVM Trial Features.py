@@ -7,7 +7,7 @@ window_size = 150
 # SVM or RMF or GBM
 alg = 'SVM'
 
-features, best_score = find_best_features(alg, window_start, window_size)
+features, best_score = find_best_features(alg, window_start, window_size, init_features=[38])
 
 print features
 print best_score

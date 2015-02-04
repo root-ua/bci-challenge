@@ -4,7 +4,8 @@ from NoCSP.utils import *
 folder_name = '../../shrinked_data/'
 
 
-def find_best_features(alg, window_start, window_size, mean=False, existing_data=None, existing_labels=None):
+def find_best_features(alg, window_start, window_size, mean=False, existing_data=None, existing_labels=None,
+                       init_features=[]):
     log('find_best_features started with algorithm %s, window start %i and window size %i'
         % (alg, window_start, window_size))
 
@@ -19,7 +20,7 @@ def find_best_features(alg, window_start, window_size, mean=False, existing_data
     if alg == 'SVM':
         data = preprocessing.scale(data)
 
-    features = []
+    features = init_features
     best_score = 0
 
     while True:
@@ -34,7 +35,7 @@ def find_best_features(alg, window_start, window_size, mean=False, existing_data
 
             log('started testing with features ' + str(new_features))
 
-            accs = train_test_and_validate(alg, data, train_labels, new_features)
+            accs = train_test_and_validate(alg, data, train_labels, new_features, current_best=best_feature_score)
             acc = accs.mean() if mean else accs.min()
 
             log('old score: %.8f%%, old features set: %s. new score: %.8f%%, new features: set %s '

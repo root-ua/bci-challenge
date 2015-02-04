@@ -8,9 +8,9 @@ from NoCSP.utils import extract_features
 submission = pd.read_csv('../../SampleSubmission.csv')
 folder_name = '../../shrinked_data/'
 
-window_start = 40
-window_size = 150
-features = [39, 0, 40]
+window_start = 50
+window_size = 270
+features = [45, 6]
 # SVM or RMF or GBM
 alg = 'SVM'
 

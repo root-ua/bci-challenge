@@ -27,17 +27,23 @@ def extract_features(data, features):
             for epo in data]
 
 
-def train_test_and_validate(alg, data, train_labels, features, quiet=True):
-    accuracy = np.zeros(5)
+def train_test_and_validate(alg, data, train_labels, features, quiet=True, current_best=0):
+    accuracy = np.zeros(10)
 
     for state in range(0, len(accuracy)):
-        rs = cross_validation.ShuffleSplit(n_train_subjects, n_iter=10, test_size=.05, random_state=state)
+        #rs = cross_validation.ShuffleSplit(n_train_subjects, n_iter=10, test_size=.05, random_state=state)
+        rs = cross_validation.ShuffleSplit(data.shape[0], n_iter=10, test_size=.05, random_state=state)
         rs = [[train_index, test_index] for train_index, test_index in rs][0]
 
-        train_data = data[epochs_indices(rs[0])]
-        train_y = train_labels[epochs_indices(rs[0])]
-        test_data = data[epochs_indices(rs[1])]
-        test_y = train_labels[epochs_indices(rs[1])]
+        train_data = data[rs[0]]
+        train_y = train_labels[rs[0]]
+        test_data = data[rs[1]]
+        test_y = train_labels[rs[1]]
+
+        # train_data = data[epochs_indices(rs[0])]
+        # train_y = train_labels[epochs_indices(rs[0])]
+        # test_data = data[epochs_indices(rs[1])]
+        # test_y = train_labels[epochs_indices(rs[1])]
 
         if alg == 'SVM':
             train_y = (train_y * 2) - 1
@@ -63,6 +69,8 @@ def train_test_and_validate(alg, data, train_labels, features, quiet=True):
         accuracy[state] = acc
         if not quiet:
             log('round %i. accuracy: %.8f%%' % (state, acc))
+        if acc < current_best:
+            return np.array([acc])
 
     return accuracy
 
